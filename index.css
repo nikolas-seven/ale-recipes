@@ -34,14 +34,6 @@ h1, h2, h3{
     font-size: 30px;
 }
 
-.steps h3{
-    color: darkred;
-    margin-inline: 100px;
-    border: solid lightcoral; 
-    background-color: hsla(9, 65%, 67%, 0.273);
-    font-style: italic;
-}
-
 .ingredients ul, .steps ol{
     text-align: left;
 }
