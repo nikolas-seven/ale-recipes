@@ -1,0 +1,36 @@
+/* style sheet CSS */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home{
+    text-decoration: none;
+}
+.container{
+    text-align: center;
+    background-color: lightyellow;
+    border: 2px solid darkblue;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+img{
+    border-radius: 20px;
+    border-color: black;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.steps h3{
+    color: red;
+}
+
+.ingredients ul, .steps ol{
+    text-align: left;
+}
