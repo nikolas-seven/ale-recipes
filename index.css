@@ -1,7 +1,8 @@
 /* style sheet CSS */
 
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Times New Roman", Courier, monospace;
+    line-height: 1.5;
 }
 
 .home{
@@ -11,6 +12,11 @@
     text-align: center;
     background-color: lightyellow;
     border: 2px solid darkblue;
+    border-radius: 20px;
+}
+
+.container.main{
+    text-align: left;
 }
 
 p, li{
@@ -18,8 +24,9 @@ p, li{
 }
 
 img{
-    border-radius: 20px;
+    border: 2px solid darkblue;
     border-color: black;
+    border-radius: 20px;
 }
 
 h1, h2, h3{
@@ -28,9 +35,18 @@ h1, h2, h3{
 }
 
 .steps h3{
-    color: red;
+    color: darkred;
+    margin-inline: 100px;
+    border: solid lightcoral; 
+    background-color: hsla(9, 65%, 67%, 0.273);
+    font-style: italic;
 }
 
 .ingredients ul, .steps ol{
     text-align: left;
+}
+
+.recipes a{
+    text-decoration: none;
+    margin: auto;
 }
